@@ -1,0 +1,5 @@
+{
+  "port": 8080,
+  "dsn": "postgresql://auth:auth@db:5432/auth?sslmode=disable",
+  "jwt_ttl": "15m"
+}

@@ -1,0 +1,23 @@
+####
+POST {{HOST}}/register
+Content-Type: application/json
+
+{
+     "email": "user@example.com",
+     "password": "strong-password"
+}
+
+####
+POST {{HOST}}/login
+Content-Type: application/json
+
+{
+     "email": "user@example.com ",
+     "password": "strong-password"
+}
+
+####
+GET {{HOST}}/me
+Authorization: Bearer {{TOKEN}}
+
+{}
